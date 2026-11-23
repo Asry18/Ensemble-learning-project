@@ -1,0 +1,20 @@
+{
+ "model": "XGBoost",
+ "best_params": {
+  "subsample": 1.0,
+  "reg_lambda": 3,
+  "n_estimators": 800,
+  "min_child_weight": 2,
+  "max_depth": 6,
+  "learning_rate": 0.1,
+  "colsample_bytree": 0.4
+ },
+ "cv_rmse_log_default": 0.2204557678335707,
+ "cv_rmse_log_tuned": 0.20920167661619737,
+ "test": {
+  "MAE": 5.918833037086457,
+  "MSE": 527.3941025625958,
+  "RMSE": 22.965062650961695,
+  "R2": 0.7822838748002926
+ }
+}
